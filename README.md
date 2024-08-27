@@ -28,9 +28,9 @@ pip install requests beautifulsoup4 openai scikit-learn
 
 ## Usage
 
-1. **Set up your OpenAI API key**: The script prompts you to enter your OpenAI API key at runtime.
+1. **Set up your OpenAI API key**: After run the code  you to enter your OpenAI API key at runtime.
 
-2. **Run the script**: Execute the script and provide the URL of the website you wish to scrape. The script will automatically scrape the content, generate questions, and evaluate the results.
+2. **Run the code**: Execute the file and provide the URL of the website you wish to scrape. The code will automatically scrape the content, generate questions, and evaluate the results.
 
 ```bash
 python script.py
@@ -40,7 +40,7 @@ python script.py
 
 ## Example
 
-Here's a basic example of how the script works:
+Here's a basic example of how the code works:
 
 - **Input**: A website URL (e.g., `https://example.com`).
 - **Output**: A JSON file containing:
@@ -50,5 +50,5 @@ Here's a basic example of how the script works:
 
 ## Evaluation
 
-The script includes simple evaluation metrics for the generated questions and relevance detection. You can modify the evaluation logic as per your specific use case.
+The code includes simple evaluation metrics for the generated questions and relevance detection. You can modify the evaluation logic as per your specific use case.
 
